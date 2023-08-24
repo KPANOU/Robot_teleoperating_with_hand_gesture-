@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_cam</name>
+  <version>0.0.0</version>
+  <description>The My_cam Package</description>
+
+  <!-- Author information -->
+  <maintainer email="etiennekpanou92@gmail.com">etienne</maintainer>
+
+  <!-- License information -->
+  <license>MIT</license>
+
+  <!-- Dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <!-- Exported package information -->
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+    <!-- Declare any package-level exports here -->
+ 
+</package>
+
